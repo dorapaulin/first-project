@@ -9,11 +9,18 @@
  <h1> Számológép </h1>
     <p>Ez egy számológép</p>
  <form>
-         <input name="a" />
+     <div>
+         <input name="a" id="a-input"/>
             +
-         <input name="b" />
+         <input name="b" id="b-input"/>
 
-         <input type="submit" value="Számolj!" >
+         <input type="submit" value="Számolj!"
+         id="submit-button">
+     </div>
+    <div>
+        Eredmény:
+            <input name="result" readonly="true" id=""result-input"/>
+    </div>
  </form>
 </body>
 </html>
